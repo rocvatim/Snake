@@ -14,7 +14,7 @@ Ik heb de game onderverdeeld in 3 classes:
 2. `Grid`
 3. `Snake`
 
-Ik heb er voor gekozen om de appel geen aparte klas te geven omdat deze uiteindelijk gewoon een Square is met een andere kleur.
+Ik heb er voor gekozen om de appel geen aparte class te geven omdat deze uiteindelijk gewoon een Square is met een andere kleur.
 
 ### Square ###
 Een `Square` kan gebruikt worden voor de volgende dingen: 
