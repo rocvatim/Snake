@@ -4,15 +4,15 @@
 
 Om dit python script te runnen is de volgende library nodig:
 
-1. [Pygame]
+1. `Pygame`
 
 ## De code ##
 
 Ik heb de game onderverdeeld in 3 classes:
 
-1. [Square]
-2. [Grid]
-3. [Snake]
+1. `Square`
+2. `Grid`
+3. `Snake`
 
 Ik heb er voor gekozen om de appel geen aparte klas te geven omdat deze uiteindelijk gewoon een Square is met een andere kleur.
 
