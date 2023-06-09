@@ -45,15 +45,15 @@ de `Snake` class maakt gebruik van een `check_die` functie om te controleren of 
 
 ### Andere functies ###
 
-De `Movement` functie controleerd of er arrow keys worden ingedrukt en past de `x_speed` en `y_speed` variabelen aan gebaseerd op de richting.
+De `Movement` functie controleert of er arrow keys worden ingedrukt en past de `x_speed` en `y_speed` variabelen aan gebaseerd op de richting.
 
 De `apple_xy` wordt gebruikt om op een willekeurige locatie op het spelveld een appel te plaatsen.
 
-De `check_event` controleerd of de input van de speler een `KEYDOWN` is of een `QUIT`
+De `check_event` controleert of de input van de speler een `KEYDOWN` is of een `QUIT`
 
 ## Problemen waar ik tegen aan liep ##
 
-Het lukte mij eerst niet om de game af te sluiten door op het kruisje te drukken. Het probleem was dat als een speler al een `KEY` had ingedrukt de event niet meer kon veranderen naar `QUIT`.  Dit heb ik opgelost door de `check_event` functie te maken. Deze controleerd eerst of de event niet `QUIT` is voordat het de `movement` functie aanroept.
+Het lukte mij eerst niet om de game af te sluiten door op het kruisje te drukken. Het probleem was dat als een speler al een `KEY` had ingedrukt de event niet meer kon veranderen naar `QUIT`.  Dit heb ik opgelost door de `check_event` functie te maken. Deze controleert eerst of de event niet `QUIT` is voordat het de `movement` functie aanroept.
 
 ## Waarom ik voor pygame heb gekozen ##
 
