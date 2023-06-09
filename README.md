@@ -33,7 +33,11 @@ De `Grid` class heeft `draw_grid` functie die iedere square de kleur meegeeft en
 
 
 ### Snake ###
-De `Snake` class maakt ook gebruik van de `Square` class om een plek op het speelveld te krijgen. Een `Snake` heeft een kleur en een lengte.
+De `Snake` class maakt ook gebruik van de `Square` class om een plek op het speelveld te krijgen. Een `Snake` heeft een kleur en een lengte. iedere `Square` waar de snake uit bestaat wordt opgeslagen in een array.
+
+De `Snake` class maakt gebruik van een `draw_it` functie die voor iedere `Square` in de array de `draw_it` van de `Square` class aanroept.
+
+De `Snake` class maakt gebruik van een `move_it` functie die de locatie van de `Snake` veranderd door gebruik de maken van de globale variabelen `x_speed` en `y_speed` deze functie zorgt er ook voor dat de `Snake` niet in de tegenovergestelde richting kan bewegen. Want dit zou ervoor zorgen dat de `Snake` zichzelf opeet
 
 
 ## Waarom ik voor pygame heb gekozen ##
